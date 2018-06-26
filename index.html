@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Crystals Collector</title>
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="reset/css" href="assets/css/reset.css"/>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+    
+    
+</head>
+<body>
+
+     <div>
+        
+        <h1>Crystals Collector!</h1>
+
+    </div>
+
+    <div>
+
+        <p>You will be given a random number a the start of the game</p>
+
+        <p> There are 4 crytals below.  By clicking on a crystal you will add a specific amount of points to your total score.</p>
+
+        <p> You win the game by matching your total score by the random number and you lose the game when your total score goes above the random number.</p>
+
+        <p> The value of each crystal is hidden from you until the 1st time you click on it.</p>
+
+        <p> Each time the game starts, the game will change the values of each crystal.</p>
+
+    </div> 
+
+    <div>
+
+        <span id="random-number">
+            randomly generated number
+        </span>
+
+    </div>
+
+    <div>
+
+        <span id="winsCount">
+            <!-- Wins counter -->
+        </span> 
+
+        <span id"lossesCount">
+            <!-- Loses counter -->
+        </span>
+
+    </div>
+
+    <div>
+        
+
+        <button id="crystal-box-1" img src="assets/images/red gem.jpeg" alt="red gem"></button>
+        <button id="crystal-box-2" data-image="crystal-2"></button>
+        <button id="crystal-box-3" data-image="crystal-3"></button>
+        <button id="crystal-box-4" data-image="crystal-4"></button>
+
+        <!-- create 4 boxes for crystals button -->
+
+    </div>
+
+    <div>
+
+         <p id="total-score">Your total score is: <span id="totalUserScore"></span> </p>
+            
+
+    </div>
+
+
+    <div>
+
+        <div id="total-score-counter"></div>
+
+        <!-- added crystal points counter -->
+
+    </div>
+
+</body>
+</html>
+
+
+    
